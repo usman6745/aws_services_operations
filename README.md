@@ -27,3 +27,16 @@ aws backup list-backup-jobs --by-backup-vault-name <aws_backup_vault_name> --reg
 aws backup list-backup-selections --backup-plan-id <_*****-99c3-e69*****ad1> --region ap-northeast-1 --profile <Profiile_Name>
 
 ```
+### Some times you might encounter this error as below wrt Timezone issues
+> "I have error The difference between the request time and the current time is too large when call method ******"
+
+### you can overcome this issue by applying these common steps
+
+Source: https://stackoverflow.com/questions/4770635/s3-error-the-difference-between-the-request-time-and-the-current-time-is-too-la
+
+The clock is out of sync
+```
+sudo ntpdate ntp.ubuntu.com
+sudo apt-get install ntp
+```
+>If at any time you get a message saying the NTP socket is still in use, stop it with sudo /etc/init.d/ntp stop and re-run your command.
