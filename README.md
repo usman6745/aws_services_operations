@@ -3,6 +3,7 @@
 
 ![Get_URL_From_AWS_SSO_Startup_Page](reference_images/Get_URL_From_AWS_SSO_Startup_Page.png)
 
+
 - Configure the credentials as shown in the below image :
 ```
 aws configure sso
