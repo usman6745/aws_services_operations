@@ -1,7 +1,7 @@
 ## Configuring AWS Creds Locally SSO Method
 #####  Open the AWS_SSO startup URL Page and select the account that you have access. Here is a reference attached below : 
 
-![Get_URL_From_AWS_SSO_Startup_Page](reference_images/Get_URL_From_AWS_SSO_Startup_Page.png)
+![Get_URL_From_AWS_SSO_Startup_Page](reference_images/Get_URL_From_AWS_SSO_StartUp_Page.png)
 
 
 - Configure the credentials as shown in the below image :
